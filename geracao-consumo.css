@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-areas: "lateral header" "lateral grafico";
+  grid-template-columns: 300px auto;
+  grid-template-rows: 20vh 75vh;
+  row-gap: 2%;
+  column-gap: 1%;
+  padding: 1%;
+}
+
+.container-lateral {
+  grid-area: lateral;
+  background-color: blueviolet;
+  height: 100%;
+  border-radius: 40px;
+  place-self: center;
+  background: #ffffff;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #f5b203;
+}
+.container-lateral h3 {
+    font-size: 1.2em;
+    color: #434e65;
+  }
+
+.botao-amarelo {
+    background-color: #f5b203;
+    border-radius: 20px;
+    width: 200px;
+    height: 68px;
+    color: white;
+    font-size: 2.18em;
+  }
+
+  .previsto {
+    font-size: 1.25em;
+    color: #434e65;
+  }
+.container-header {
+    grid-area: header;
+    background-color: blue;
+  }
+
+.container-header h2 {
+  font-size: 1.5em;
+  color: #434e65;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao-branco {
+  max-width: 14.87em;
+  height: 3.43em;
+  background: #ffffff;
+  border: 0.3px solid #000000;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0.62em;
+}
+
+.container-grafico {
+  background-color: blueviolet;
+  grid-area: grafico;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
