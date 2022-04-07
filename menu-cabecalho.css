@@ -1,0 +1,135 @@
+body {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu';
+}
+
+/* Aside menu */
+.asideMenu {
+    background-color: #434e65;
+    height: 100vh;
+    width: 100%;
+    max-width: 290px;
+}
+
+.asideMenu__logoDiv {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.asideMenu__navs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    max-height: 87%;
+}
+
+.mainNav__link, .secondaryNav__link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.mainNav__link-active, .secondaryNav__link-active {
+    font-weight: 900;
+    text-shadow: 2px 2px 5px rgba(141, 141, 141, 1);
+}
+
+.secondaryNav__link {
+    padding: 0 20px;
+}
+
+.mainNav__description {
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.secondaryNav__description {
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+
+.mainNav__description:hover, .secondaryNav__description:hover {
+    font-weight: 900;
+}
+
+.secondaryNav__icon {
+    max-width: 45px;
+}
+
+/* Header */
+.header {
+    background-color: #434e65;
+    position: relative;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__userName {
+    font-size: 1.5em;
+    color: white;
+    font-weight: 700;
+}
+
+.header__icon {
+    width: 100%;
+    height: auto;
+    max-width: 45px;
+    margin-right: 10px;
+}
+
+.header__profileImg {
+    width: 100%;
+    height: auto;
+    max-width: 60px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.header__profileOptIcon {
+    width: 100%;
+    height: auto;
+    max-width: 20px;
+    margin: 0 10px;
+}
+
+.header__iconsLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__profileOptions {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    border: 1px solid gray;
+}
+
+/* Conteúdo principal */
+.rightContainer {
+    width: 100%;
+    max-width: 1140px;
+}
