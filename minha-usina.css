@@ -57,14 +57,38 @@
 }
 
 .chartCnt {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     text-align: center;
+    padding: 20px;
 }
 
 .chartCnt__title {
-    text-shadow: 2px 2px 5px rgb(176, 176, 176);
-    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.chartMinhaUsina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chartMinhaUsina__chart {
+    max-width: 750px;
+}
+
+.chartMinhaUsina__button {
+    background-color: #434E65;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 20%;
+    margin-bottom: 20px;
+    border: none;
+    font-family: 'Ubuntu';
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 20px;
 }
 
 /* Aside */

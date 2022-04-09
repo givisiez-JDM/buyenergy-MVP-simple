@@ -42,7 +42,7 @@
 }
 
 .chartCnt {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     text-align: center;
     padding: 20px;
@@ -120,7 +120,7 @@
 }
 
 .statusCnt {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
     color: #434E65;
     border-radius: 10px;
     text-align: center;
