@@ -11,6 +11,7 @@
     padding: 0 20px 0 50px;
     display: flex;
     flex-flow: column nowrap;
+
 }
 
 .mainContent__savedAndGenerated {
@@ -46,6 +47,7 @@
     border-radius: 10px;
     text-align: center;
     padding: 20px;
+    margin-bottom: 15px;
 }
 
 .chartCnt__title {
@@ -94,12 +96,8 @@
 
 /* Aside */
 .asideContent {
-    height: 90vh;
     max-width: 250px;
     padding-right: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .weatherCnt {
