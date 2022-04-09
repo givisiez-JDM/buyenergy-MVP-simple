@@ -10,6 +10,109 @@
     <link rel="stylesheet" href="menu-cabecalho.css">
 </head>
 <body>
-    <nav></nav>
+    <aside class="asideMenu">
+        <a href="/" class="asideMenu__logoDiv">
+            <img class="asideMenu__logo" src="images/logo_negativo.png" alt="logo buy energy">
+        </a>
+        <div class="asideMenu__navs">
+            <nav class="mainNav">
+                <a class="mainNav__link mainNav__link--active" href="/minha-usina.html">
+                    <img class="mainNav__icon" src="images/icons/1 - Minha Usina.png" alt="">
+                    <p class="mainNav__description" >Minha usina</p>
+                </a>
+                <a class="mainNav__link" href="/geracao-consumo.html">
+                    <img class="mainNav__icon" src="images/icons/2 - Geração x Consumo.png" alt="">
+                    <p class="mainNav__description" >Geração x Consumo</p>
+                </a>
+                <a class="mainNav__link" href="/economia.html">
+                    <img class="mainNav__icon" src="images/icons/3 - Economia.png" alt="">
+                    <p class="mainNav__description" >Economia</p>
+                </a>
+                <a class="mainNav__link" href="/indicacao.html">
+                    <img class="mainNav__icon" src="images/icons/4 - Indicação.png" alt="">
+                    <p class="mainNav__description" >Indicação</p>
+                </a>
+                <a class="mainNav__link" href="/pontuacao.html">
+                    <img class="mainNav__icon" src="images/icons/5 - Pontuação.png" alt="">
+                    <p class="mainNav__description" >Pontuação</p>
+                </a>
+                <a class="mainNav__link" href="/dicas.html">
+                    <img class="mainNav__icon" src="images/icons/6 - Dicas.png" alt="">
+                    <p class="mainNav__description" >Dicas</p>
+                </a>
+                <a class="mainNav__link" href="/logistica.html">
+                    <img class="mainNav__icon" src="images/icons/7 - Logistica.png" alt="">
+                    <p class="mainNav__description" >Logística</p>
+                </a>
+            </nav>
+            <nav class="secondaryNav">
+                <a class="secondaryNav__link" href="/">
+                    <img class="secondaryNav__icon" src="images/icons/8 - Fale Conosco.png" alt="">
+                    <p class="secondaryNav__description" >Fale conosco</p>
+                </a>
+                <a class="secondaryNav__link" href="/ajuda.html">
+                    <img class="secondaryNav__icon" src="images/icons/9 - Ajuda.png" alt="">
+                    <p class="secondaryNav__description" >Ajuda</p>
+                </a>
+                <a class="secondaryNav__link" href="/">
+                    <img class="secondaryNav__icon" src="images/icons/10 - Politica de Privacidade.png" alt="">
+                    <p class="secondaryNav__description" >Política de privacidade</p>
+                </a>
+            </nav>
+        </div>
+    </aside>
+    <div class="rightContainer">
+        <div class="rightContainer__headerAndMain">
+            <header class="header">
+                <p class="header__userName">Olá, usuário!</p>
+                <div class="header__iconsLeft">
+                    <img class="header__icon" src="images/icons/Cabeçalho - Pesquisa.png" alt="">
+                    <img class="header__icon" src="images/icons/Cabeçalho - Ajuda.png" alt="">
+                    <img class="header__profileImg" src="images/icons/user-male-circle.png" alt="">
+                    <img class="header__profileOptIcon" src="images/icons/triangulo-para-baixo.png" alt="">
+                </div>
+            </header>
+            <main class="main">
+                <section class="mainContent">
+                    <div class="maintenanteStatus">
+                        <p class="maintenanteStatus__text">Status da manutenção: </p>
+                        <img class="maintenanteStatus__icon" src="images/icons/ok.png" alt="">
+                    </div>
+                    <div class="nextMaintenance">
+                        <p class="nextMaintenance__text">Próxima manutenção: 28/05/2022</p>
+                        <p class="nextMaintenance__period"><span class="nextMaintenanceCnt__period--active">mês</span> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;ano &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; total </p>
+                    </div>
+                    <div class="chartCnt">
+                        <h2 class="chartCnt__title">Geração de energia da minha usina</h2>
+                        <div class="chartMinhaUsina">
+                            <img class="chartMinhaUsina__chart" src="images/charts/Minha usina - Gráfico 1 - Geração mensal.png" alt="">
+                        </div>
+                        <button class="chartMinhaUsina__button"> < Fevereiro > </button>
+                    </div>
+                </section>
+                <aside class="asideContent">
+                    <div class="weatherCnt">
+                        <div>
+                            <p class="weatherCnt__text">Belo Horizonte</p>
+                            <p class="weatherCnt__text">17ºC</p>
+                        </div>
+                        <img class="weatherCnt__icon" src="images/icons/unnamed.png" alt="">
+                    </div>
+                    <div class="statusCnt">
+                        <h3 class="statusCnt__title">Status da sua Usina</h3>
+                        <p class="statusCnt__text">Produção da usina de hoje:</p>
+                        <p class="statusCnt__value">20%</p>
+                        <p class="statusCnt__text">Potência atual:</p>
+                        <p class="statusCnt__value">2,2kW</p>
+                        <img class="statusCnt__icon" src="images/icons/geracao-e-usina.png" alt="">
+                    </div>
+                    <div class="powerPlant">
+                        <h3 class="powerPlant__title">Minha usina</h3>
+                        <img class="powerPlant__img" src="images/usina.jpg" alt="foto da usina">
+                    </div>
+                </aside>
+            </main>
+        </div>
+    </div>
 </body>
 </html>
