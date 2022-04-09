@@ -45,12 +45,52 @@
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     text-align: center;
+    padding: 20px;
 }
 
 .chartCnt__title {
     text-shadow: 2px 2px 5px rgb(176, 176, 176);
     font-size: 2em;
 }
+
+.chartCnt__charts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chartEconomiaFinanceira, .chartGeracaoXConsumo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.chartEconomiaFinanceira__title, .chartGeracaoXConsumo__title {
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-size: 1em;
+}
+
+.chartEconomiaFinanceira__title {
+    text-align: right;
+}
+
+.chartEconomiaFinanceira__chart {
+    max-width: 270px;
+}
+
+.chartGeracaoXConsumo__chart {
+    max-width: 348px;
+}
+
+.chartEconomiaFinanceira__link, .chartGeracaoXConsumo__link {
+    margin-top: 10px;
+    text-align: right;
+    color: black;
+    font-weight: 500;
+}
+
 
 /* Aside */
 .asideContent {
