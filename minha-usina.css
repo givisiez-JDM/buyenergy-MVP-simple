@@ -1,0 +1,145 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Main content */
+.mainContent {
+    width: 100%;
+    max-width: 890px;
+    padding: 0 20px 0 50px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.maintenanteStatus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.maintenanteStatus__text {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgb(176, 176, 176);
+    color: #434E65;
+    font-size: 1.2em;
+}
+
+.maintenanteStatus__icon {
+    max-width: 40px;
+}
+
+.nextMaintenance {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 30px 0;
+}
+
+.nextMaintenance__text {
+    color: #434E65;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgb(176, 176, 176);
+}
+
+.nextMaintenance__period {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgb(176, 176, 176);
+    color: #434E65;
+    font-size: 1.2em;
+}
+
+.nextMaintenanceCnt__period--active {
+    font-weight: 700;
+}
+
+.chartCnt {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.chartCnt__title {
+    text-shadow: 2px 2px 5px rgb(176, 176, 176);
+    font-size: 2em;
+}
+
+/* Aside */
+.asideContent {
+    height: 90vh;
+    max-width: 250px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.weatherCnt {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.weatherCnt__text {
+    text-align: right;
+    color: #434E65;
+    margin-right: 10px;
+}
+
+.weatherCnt__icon {
+    max-width: 60px;
+}
+
+.statusCnt {
+    color: #434E65;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+}
+
+.statusCnt__title {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(176, 176, 176);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.statusCnt__text {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.statusCnt__value {
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.statusCnt__icon {
+    max-width: 150px;
+}
+
+.powerPlant {
+    color: #434E65;
+    text-align: center;
+}
+
+.powerPlant__title {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(176, 176, 176);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.powerPlant__img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px rgb(176, 176, 176)
+}

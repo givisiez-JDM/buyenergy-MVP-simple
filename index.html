@@ -66,19 +66,73 @@
         </div>
     </aside>
     <div class="rightContainer">
-        <header class="header">
-            <p class="header__userName">Olá, usuário!</p>
-            <div class="header__iconsLeft">
-                <img class="header__icon" src="images/icons/Cabeçalho - Pesquisa.png" alt="">
-                <img class="header__icon" src="images/icons/Cabeçalho - Ajuda.png" alt="">
-                <img class="header__profileImg" src="images/icons/user-male-circle.png" alt="">
-                <img class="header__profileOptIcon" src="images/icons/triangulo-para-baixo.png" alt="">
-            </div>
-        </header>
-        <main class="main">
-            <div></div>
-            <aside></aside>
-        </main>
+        <div class="rightContainer__headerAndMain">
+            <header class="header">
+                <p class="header__userName">Olá, usuário!</p>
+                <div class="header__iconsLeft">
+                    <img class="header__icon" src="images/icons/Cabeçalho - Pesquisa.png" alt="">
+                    <img class="header__icon" src="images/icons/Cabeçalho - Ajuda.png" alt="">
+                    <img class="header__profileImg" src="images/icons/user-male-circle.png" alt="">
+                    <img class="header__profileOptIcon" src="images/icons/triangulo-para-baixo.png" alt="">
+                </div>
+            </header>
+            <main class="main">
+                <section class="mainContent">
+                    <div class="mainContent__savedAndGenerated">
+                        <div class="savedValueCnt">
+                            <p class="savedValueCnt__description">Valor economizado <br>até o momento: </p>
+                            <p class="savedValueCnt__value">R$ 5750,75</p>
+                        </div>
+                        <div class="generatedValueCnt">
+                            <p class="generatedValueCnt__description">Geração de energia <br>total da usina: </p>
+                            <p class="generatedValueCnt__value">4500 kWh</p>
+                        </div>
+                    </div>
+                    <div class="chartCnt">
+                        <h2 class="chartCnt__title">Análise do último mês</h2>
+                        <div class="chartCnt__charts">
+                        </div>
+                    </div>
+                </section>
+                <aside class="asideContent">
+                    <div class="weatherCnt">
+                        <div>
+                            <p class="weatherCnt__text">Belo Horizonte</p>
+                            <p class="weatherCnt__text">17ºC</p>
+                        </div>
+                        <img class="weatherCnt__icon" src="images/icons/unnamed.png" alt="">
+                    </div>
+                    <div class="statusCnt">
+                        <h3 class="statusCnt__title">Status da sua Usina</h3>
+                        <p class="statusCnt__text">Produção da usina de hoje:</p>
+                        <p class="statusCnt__value">20%</p>
+                        <p class="statusCnt__text">Potência atual:</p>
+                        <p class="statusCnt__value">2,2kW</p>
+                        <img class="statusCnt__icon" src="images/icons/geracao-e-usina.png" alt="">
+                    </div>
+                    <div class="asideButtonsCnt">
+                        <button class="asideButton">
+                            <a class="asideButton__link" href="/pontuacao.html">
+                                <p class="asideButton__text">Acesse seu clube de benefícios</p>
+                                <p class="asideButton__smallText">Saiba mais></p>
+                            </a>
+                        </button>
+                        <button class="asideButton">
+                            <a class="asideButton__link" href="/indicacao.html">
+                                <p class="asideButton__text">Indique amigos e aumente sua pontuação</p>
+                                <p class="asideButton__smallText">Saiba mais></p>
+                            </a>
+                        </button>
+                        <button class="asideButton">
+                            <a class="asideButton__link" href="/dicas.html">
+                                <p class="asideButton__text">Acesse nossas dicas de economia</p>
+                                <p class="asideButton__smallText">Saiba mais></p>
+                            </a>
+                        </button>
+                    </div>
+                </aside>
+            </main>
+        </div>
     </div>
 </body>
 </html>
