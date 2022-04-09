@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-areas: "lateral header" "lateral grafico";
+  grid-template-columns: 220px auto;
+  grid-template-rows: 20vh 63vh;
+  row-gap: 1%;
+  column-gap: 2%;
+  padding: 1%;
+}
+
+h1 {
+  color: #434e65;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1.5em;
+}
+/* inicio container lateral*/
+.container-lateral {
+  grid-area: lateral;
+  border-radius: 2.5em;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.container-lateral h3 {
+  font-size: 1.1em;
+  color: #434e65;
+  font-style: medium;
+  margin-bottom: 2px;
+}
+
+.botao-amarelo {
+  background-color: #f5b203;
+  border-radius: 20px;
+  width: 5.5em;
+  height: 1.7em;
+  color: white;
+  font-size: 2.18em;
+  margin: auto;
+  margin-bottom: 0.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.previsto {
+  font-size: 1.25em;
+  color: #434e65;
+  margin-bottom: 2em;
+}
+/* fim container lateral*/
+
+/* inicio container header*/
+.container-header {
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-header h2 {
+  font-size: 1.3em;
+  color: #434e65;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-header p:nth-child(2) {
+  height: 1.5em;
+  width: 10em;
+  border-radius: 1.5em;
+  background-color: #434e65;
+  margin: 0.5em;
+  color: #ffffff;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-branco {
+  width: 5em;
+  height: 1em;
+  color: #434e65;
+  font-size: 2.8em;
+  background: #ffffff;
+  border: 0.3px solid #000000;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0.2em;
+  font-style: bold;
+  margin-left: -2em;
+}
+.expectativa {
+  font-size: 20px;
+  color: #434e65;
+  margin: 5px;
+  margin-bottom: 10px;
+  margin-left: -4em;
+}
+/* fim container header*/
+
+/* inicio container grafico*/
+.container-grafico {
+  color: #000000;
+  grid-area: grafico;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-grafico img {
+  width: 100%;
+  height: 95%;
+}
+
+/* fim container grafico*/
