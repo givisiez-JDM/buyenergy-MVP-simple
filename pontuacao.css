@@ -6,7 +6,7 @@
     align-items: center;
     text-align: center;
 }
-
+/*inicio main */
 main {
     height: 150vh;
 }
@@ -17,6 +17,7 @@ main h1 {
     color: #434E65;
 }
 
+/*inicio div saldo-pontuacao*/
 section {
     display: inline-flex;
 }
@@ -47,7 +48,9 @@ span {
     font-size: 1.3em;
 
 }
+/*fim div saldo-pontuacao*/
 
+/* inicio divs laranjas*/
 #links a {
     background-color: #f5b203;
     width: 200px;
@@ -61,6 +64,8 @@ span {
     display: flex;
     justify-content: center;
 }
+/* fim  divs laranjas*/
+
 
 /* inicio container loja*/
 .pontuacao-loja {
