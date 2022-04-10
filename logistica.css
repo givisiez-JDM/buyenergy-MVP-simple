@@ -1,0 +1,70 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Main content */
+.mainContent {
+    width: 100%;
+    height: 850px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainContent__title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #434E65;
+}
+
+.mainContent__img {
+    max-width: 1000px;
+    height: auto;
+    width: 100%;
+}
+
+.contactCnt {
+    background-color: #434E65;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 316px;
+    height: 145px;
+    align-self: flex-end;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactCnt__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contactCnt__button {
+    background: #F5B203;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #434E65;
+    width: 279px;
+    height: 44px;
+}
