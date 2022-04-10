@@ -1,0 +1,134 @@
+.mainCnt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Main content */
+.mainContent {
+    width: 100%;
+    max-width: 890px;
+    padding: 0 20px 0 30px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.totalSavings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.totalSavings__text {
+    font-weight: 500;
+    font-size: 2.2em;
+    text-align: center;
+    color: #434E65;
+}
+
+.totalSavings__savedValue {
+    background-color:rgba(133, 184, 36, 0.6);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+}
+
+.chartCnt {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.chartCnt__title {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.chartCnt__charts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chartValorConta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.chartValorConta__chart {
+    max-width: 730px;
+}
+
+/* Aside */
+.asideContent {
+    max-width: 250px;
+    padding-right: 30px;
+    height: 625px;
+}
+
+.statusCnt {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    height: 465px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.statusCnt__title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.statusCnt__value {
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.asideButtonsCnt {
+    margin-top: 20px;
+}
+
+.asideButton {
+    background-color: #434E65;
+    border-radius: 40px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 50px;
+    border: none;
+}
+
+.asideButton__link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.asideButton__link:link, .asideButton__link:visited {
+    color: white;
+}
+
+.asideButtonsCnt__title {
+    color: #434E65;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+}
