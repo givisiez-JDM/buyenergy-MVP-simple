@@ -1,0 +1,198 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Main content */
+.mainContent {
+    color:#434E65;
+    width: 100%;
+    max-width: 890px;
+    padding: 0 20px 0 50px;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.mainContent__savedAndGenerated {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.savedValueCnt, .generatedValueCnt {
+    background-color: #F5B203;
+    color: white;
+    border-radius: 10px;
+    margin: 70px 0 20px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+}
+
+.savedValueCnt__description, .generatedValueCnt__description {
+    font-size: 1.3em;
+    font-weight:500;
+}
+
+.savedValueCnt__value, .generatedValueCnt__value {
+    font-size: 2em;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.chartCnt {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.chartCnt__title {
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgb(176, 176, 176);
+    font-size: 2em;
+}
+
+.chartCnt__charts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chartEconomiaFinanceira, .chartGeracaoXConsumo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.chartEconomiaFinanceira__title, .chartGeracaoXConsumo__title {
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-size: 1em;
+}
+
+.chartEconomiaFinanceira__title {
+    text-align: right;
+}
+
+.chartEconomiaFinanceira__chart {
+    max-width: 270px;
+}
+
+.chartGeracaoXConsumo__chart {
+    max-width: 348px;
+}
+
+.chartEconomiaFinanceira__link, .chartGeracaoXConsumo__link {
+    margin-top: 10px;
+    text-align: right;
+    color: black;
+    font-weight: 500;
+}
+
+
+/* Aside */
+.asideContent {
+    max-width: 250px;
+    padding-right: 50px;
+}
+
+.weatherCnt {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.weatherCnt__text {
+    text-align: right;
+    color: #434E65;
+    margin-right: 10px;
+}
+
+.weatherCnt__icon {
+    max-width: 60px;
+}
+
+.statusCnt {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #434E65;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.statusCnt__title {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(176, 176, 176);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.statusCnt__text {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.statusCnt__value {
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.statusCnt__icon {
+    max-width: 150px;
+}
+
+.asideButton {
+    background-color: #434E65;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+}
+
+button:first-child {
+    margin-top: 20px;
+    
+}
+
+.asideButton__link {
+    text-decoration: none;
+    color: white;
+}
+
+.asideButton__link:link, .asideButton__link:visited {
+    color: white;
+    
+}
+
+.asideButton__text {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 5px;
+    
+}
+
+.asideButton__smallText {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.asideContent .asideButton {
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 0;
+    
+}
+
