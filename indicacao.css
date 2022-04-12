@@ -1,10 +1,8 @@
-.upper_text1{
-    position: absolute;
-    left: 41.81%;
-    right: 24.24%;
-    top: 12.95%;
-    bottom: 77.56%;
+.main {
+    padding: 30px;
+}
 
+.upper_text1{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -12,53 +10,34 @@
     line-height: 43px;
     text-align: center;
     color: #434E65;
+    margin: 20px 0;
 }
 .upper_text2{
-    position: absolute;
-    left: 28.1%;
-    right: 22.56%;
-    top: 21.21%;
-    bottom: 70.46%;
-
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
     color: #434E65;
+    margin: 20px 0;
 }
 .upper_text3{
-    position: absolute;
-    left: 28.1%;
-    right: 15.56%;
-    top: 27.94%;
-    bottom: 65.66%;
-
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     color: #434E65;
+    margin: 20px 0;
 }
-.rectangle1{    
-    position: absolute;
-    width: 232px;
-    height: 46px;
-    left: 76.56%;
-    right: 10.68%;
-    top: 20.10%;
-    bottom: 74.73%;
-
+.upperText__value{    
     background: #FFFFFF;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px; 
+    padding: 5px 40px;
  } 
- /*R$1000,00*/
+
  .inbox_text{
-    position:absolute;
-    left: 18%;
-       
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -68,12 +47,6 @@
  }
  /*Nova indicação*/
 .main_text{
-    position: absolute;
-    left: 28.1%;
-    right: 60.49%;
-    top: 35.5%;
-    bottom: 46.99%;
-
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -82,14 +55,7 @@
     color: #434E65;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.leftIcons{
-    position: absolute;
-    left: 28.1%;
-    right: 73.68%;
-    top: 40.60%;
-    bottom: 51.67%;
-   
- }
+
 .userProfile_icon{
     max-width: 34px;
     margin-top: 20%;
@@ -107,13 +73,6 @@
 }
 /*input com dados de indicaçcao*/
 .rectangle2{
-    position: absolute;
-    width: 429px;
-    height: 30px;
-    left: 30.91%;    
-    top: 40.60%;
-    bottom: 46.14%; 
-
     background: #FFFFFF;
     filter: blur(4px);
     border-radius: 6px;
@@ -121,12 +80,8 @@
     border: none;
 }
 .rectangle3{
-    position: absolute;
     width: 429px;
     height: 30px;
-    left: 30.91%;   
-    top: 46.60%;
-    bottom: 46.14%;
     background: #FFFFFF;
     filter: blur(2px);
     border-radius: 6px;
@@ -134,13 +89,8 @@
     border: none;
 }
 .rectangle4{
-    position: absolute;
     width: 429px;
     height: 30px;
-    left: 30.91%;
-    
-    top: 52.60%;
-    bottom: 48.14%;
     background: #FFFFFF;
     filter: blur(4px);
     border-radius: 6px;
@@ -149,14 +99,8 @@
 }
 /*Deixe aqui sua mensagem sobre a pessoa indicada*/
 .nextMain_text{
-    position: absolute;
     width: 502px;
     height: 24px;
-    left: 27.90%;
-    right: 30.24%;
-    top: 62.95%;
-    bottom: 46.99%;
-       
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -167,13 +111,8 @@
 }
 /*nomes das indicações*/
 .rectangle5{
-    position: absolute;
     width: 475px;
     height: 166px;
-    left: 27.90%;    
-    top: 66.95%;
-    bottom: 46.14%;
-
     background: #FFFFFF;
     filter: blur(2px);
     border-radius: 8px;
@@ -186,7 +125,6 @@
     border-radius: 10px;
     padding: 10px;
     width: 50%;
-     
     border: none;
     color: white;
     font-family: 'Ubuntu';
@@ -202,14 +140,8 @@
     align-items: top;
 }
 .indication__title{
-    position: absolute;
     width: 503px;
     height: 24px;
-    left: 62.30%;
-    right: 24.24%;
-    top: 35.5%;
-    bottom: 46.99%;
-
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -219,13 +151,8 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .rectangle6{
-    position: absolute;
     width: 450px;
     height: 40px;
-    left: 62.20%;    
-    top: 42%;
-    bottom: 46.14%;
-     
     background: #ffffff;
     filter: blur(2px);
     border-radius: 6px;
@@ -233,13 +160,8 @@
     border: none;    
 } 
 .rectangle7, .rectangle8, .rectangle9, .rectangle10{
-    position: absolute;
     width: 450px;
-    height: 40px;
-    left: 0%;    
-    top: 150.60%;
-    bottom: 46.14%;
-     
+    height: 40px;     
     background: #ffffff;
     filter: blur(2px);
     border-radius: 6px;
@@ -248,26 +170,16 @@
     margin-bottom: 4px;
 } 
 .indications__name{
-    position: absolute;
     width: 450px;
     height: 45px;
-    left: 72.20%;     
-    top: 40.60%;
-    bottom: 46.14%;     
 }
-.rightIcons{
-    position: absolute;
-    right: 33.68%;
-    left: 62.50%;    
-    top: 42.30%;   
-    bottom: 51.67%;   
- }
+
 .pending_icon{  
     max-width: 34px;   
     margin-bottom: 22px;   
 }
 
-.check_icon{
+.check_icon {
     max-width: 34px; 
     margin-bottom: 22px;
 }
@@ -275,12 +187,7 @@
     max-width: 34px; 
     margin-bottom: 22px;
 }
-.indications__name{
-    position: absolute;
-    left: 72.50%;    
-    top: 42.70%;   
-    bottom: 51.67%; 
-}
+
 .inbox_text1 , .inbox_text2 , .inbox_text3 , .inbox_text4 , .inbox_text5{
     font-family: 'Ubuntu';
     font-style: normal;
@@ -299,12 +206,6 @@
     color: #C12B2B;    
 }
 /*legendas*/
-.subtitle{
-    position: absolute;
-    left: 78.50%;    
-    top: 80.70%;   
-    bottom: 51.67%; 
-}
 .subtitle1{
     font-family: 'Ubuntu';
     font-style: normal;
@@ -313,26 +214,3 @@
     line-height: 15px;
     margin-bottom: 20px;   
 }
-
-.yellow_quad{    
-    position: absolute;
-    left: 76.50%;    
-    top: 80.70%;   
-    bottom: 51.67%;
-    margin-bottom: 2px;
-}
-.green_quad{    
-    position: absolute;
-    left: 76.50%;    
-    top: 84.70%;   
-    bottom: 51.67%;
-    margin-bottom: 2px;
-}
-.red_quad{    
-    position: absolute;
-    left: 76.50%;    
-    top: 88.70%;   
-    bottom: 51.67%;
-    margin-bottom: 2px;
-}
-    
