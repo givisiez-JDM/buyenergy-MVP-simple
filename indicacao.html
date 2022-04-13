@@ -73,67 +73,72 @@
                 </div>
             </header>
             <main class="main">
-                    <div class="uppetText">
-                        <p class="upper_text1">Você ganha junto com a Buy</p> 
-                        <p class="upper_text2">Com o nosso sistema de bonificação você já ganhou um total de: <span class="upperText__value">R$ 1000,00</span></p>
-                        <p class="upper_text3">Ainda não sabe sobre o nosso sistema de bonificação? "Clique aqui" para maiores informações.</p>
-                    </div>
-                    <div class="secondQuadrant">
-                        <p class="main_text">Nova indicação</p>
-                    </div>  
-                    <div class="leftIcons">                     
-                        <img class="userProfile_icon" src="images/icons/user-male-circle.png" alt="">
-                        <img class="whatsApp_icon" src="images/icons/whatsapp.png" alt="">
-                        <img class="mail_icon" src="images/icons/new-post.png" alt="">
-                    </div>  
-                    <div class="leftRectangles"> 
-                        <input class="rectangle2">                   
-                        <input class="rectangle3">  
-                        <input class="rectangle4">
-                    </div>
-                    <div>
-                        <p class="nextMain_text">Deixe aqui sua mensagem sobre a pessoa indicada: </p>
-                    
-                    </div>
-                    <div>
-                        <input class="rectangle5">
-                    </div> 
-                    <button class="button_sendMsg"> Enviar</button>   
-                    <section class="container">
-                            <div class="thirdQuadrant">
-                                <p class="indication__title">Suas indicações</p>
-                            </div>  
-                            <div class="rightRectangles"> 
-                                <rectangle class="rectangle6">                   
-                                <rectangle class="rectangle7">  
-                                <rectangle class="rectangle8">
-                                <rectangle class="rectangle9">  
-                                <rectangle class="rectangle10">
-                            </div>
-                            <div class="rightIcons"> 
-                                <img class="pending_icon" src="images/icons/in-progress.png" alt="">
-                                <img class="check_icon" src="images/icons/ok.png" alt="">
-                                <img class="check_icon" src="images/icons/ok.png" alt="">
-                                <img class="cancel_icon" src="images/icons/cancel.png" alt="">
-                                <img class="cancel_icon" src="images/icons/cancel.png" alt="">
-                            </div>  
-                            <div class="indications__name">
-                                <p class="inbox_text1">CecíliaMeireles</p>                            
-                                <p class="inbox_text2">Vinícius de Moraes</p>                            
-                                <p class="inbox_text3">Mario de Andrade</p>                            
-                                <p class="inbox_text4">José de Alencar</p>                           
-                                <p class="inbox_text5">Clarice Lispector</p>  
-                            </div>        
-                            <div class="subtitle">                                
-                                <p class="subtitle1">Em negociação</p> 
-                                <p class="subtitle1">Proposta aprovada pelo cliente</p>     
-                                <p class="subtitle1">Proposta reprovada pelo cliente</p>        
+                <div class="uppetText">
+                    <p class="upper_text1">Você ganha junto com a Buy</p> 
+                    <p class="upper_text2">Com o nosso sistema de bonificação você já ganhou um total de: <span class="upperText__value">R$ 1000,00</span></p>
+                    <p class="upper_text3">Ainda não sabe sobre o nosso sistema de bonificação? "Clique aqui" para maiores informações.</p>
+                </div>
+                <div class="flexRow">
+                    <form class="secondQuadrant">
+                        <p class="main_text">Nova indicação</p> 
+                        <div class="indicacao__userProfile">
+                            <img class="userProfile_icon" src="images/icons/user-male-circle.png" alt="">
+                            <input type="text" class="inputIndicacao">                   
+                        </div>
+                        <div class="indicacao__whatsApp">
+                            <img class="whatsApp_icon" src="images/icons/whatsapp.png" alt="">
+                            <input type="text" class="inputIndicacao">  
+                        </div>
+                        <div class="indicacao__mail">                     
+                            <img class="mail_icon" src="images/icons/new-post.png" alt="">
+                            <input type="email" class="inputIndicacao">
+                        </div>  
+                        <div>
+                            <p class="nextMain_text">Deixe aqui sua mensagem sobre a pessoa indicada: </p>
+                            <input class="rectangle5">
+                        </div>
+                        <div class="flexRow indicacao__button">
+                            <input type="submit" class="button_sendMsg" />   
                         </div> 
-                <div> 
-                    <img class="yellow_quad" src="images/icons/Page 07 - Rectangle 13.png" alt="">  
-                    <img class="green_quad" src="images/icons/Page 07 - Rectangle 12.png" alt="">
-                    <img class="red_quad" src="images/icons/Page 07 - Rectangle 11.png" alt="">
-                </div>                                                           
+                    </form>
+                    <section class="indication">
+                        <p class="indication__title">Suas indicações</p> 
+                        <div class="indications__cnt">
+                            <img class="indication__icon" src="images/icons/in-progress.png" alt="">
+                            <p class="inbox_text1">Cecília Meireles</p>                            
+                        </div>
+                        <div class="indications__cnt">
+                            <img class="indication__icon" src="images/icons/ok.png" alt="">
+                            <p class="inbox_text2">Vinícius de Moraes</p>                            
+                        </div>
+                        <div class="indications__cnt">
+                            <img class="indication__icon" src="images/icons/ok.png" alt="">
+                            <p class="inbox_text3">Mario de Andrade</p>                            
+                        </div>
+                        <div class="indications__cnt">
+                            <img class="indication__icon" src="images/icons/cancel.png" alt="">
+                            <p class="inbox_text4">José de Alencar</p>                           
+                        </div>
+                        <div class="indications__cnt">
+                            <img class="indication__icon" src="images/icons/cancel.png" alt="">
+                            <p class="inbox_text5">Clarice Lispector</p>       
+                        </div>
+                        <div class="subtitleCnt">
+                            <div class="subtitles flexRow">
+                                <img class="subtitle__square" src="images/icons/Page 07 - Rectangle 13.png" alt="">  
+                                <p class="subtitle__text">Em negociação</p> 
+                            </div>
+                            <div class="subtitles flexRow">
+                                <img class="subtitle__square" src="images/icons/Page 07 - Rectangle 12.png" alt="">
+                                <p class="subtitle__text">Proposta aprovada pelo cliente</p>     
+                            </div>
+                            <div class="subtitles flexRow">
+                                <img class="subtitle__square" src="images/icons/Page 07 - Rectangle 11.png" alt="">
+                                <p class="subtitle__text">Proposta reprovada pelo cliente</p>        
+                            </div>
+                        </div>                                                          
+                    </section>
+                </div>
             </main> 
         </div>
     </div>
