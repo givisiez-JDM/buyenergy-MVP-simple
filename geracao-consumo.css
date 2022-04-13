@@ -1,4 +1,4 @@
-* {
+p, h1, h2, h3, h4, h5, h6, a, span {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,8 +9,8 @@
 main {
   display: grid;
   grid-template-areas: "lateral header" "lateral grafico";
-  grid-template-columns: 220px auto;
-  grid-template-rows: 20vh 63vh;
+  grid-template-columns: 270px auto;
+  grid-template-rows: auto;
   row-gap: 1%;
   column-gap: 2%;
   padding: 1%;
@@ -29,20 +29,22 @@ h1 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 10px 0;
 }
 
-.container-lateral h3 {
-  font-size: 1.1em;
+.container-lateral__h3 {
+  font-size: 1.5em;
   color: #434e65;
   font-style: medium;
   margin-bottom: 2px;
+  font-weight: 500;
 }
 
 .botao-amarelo {
   background-color: #f5b203;
   border-radius: 20px;
-  width: 5.5em;
+  width: 90%;
   height: 1.7em;
   color: white;
   font-size: 2.18em;
@@ -122,13 +124,16 @@ h1 {
   color: #000000;
   grid-area: grafico;
   border-radius: 40px;
+  padding: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: rgba(255, 255, 255, 0.5);
+  height: 660px;
 }
 
 .container-grafico img {
   width: 100%;
-  height: 95%;
+  max-width: 750px;
+  height: auto;
 }
 
 /* fim container grafico*/

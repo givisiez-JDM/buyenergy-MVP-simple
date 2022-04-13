@@ -1,20 +1,15 @@
-* {
+p, h1, h2, h3, h4, h5, h6, a, span, .links {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Ubuntu, sans-serif;
-    align-items: center;
-    text-align: center;
 }
 /*inicio main */
-main {
-    height: 150vh;
-}
-
 main h1 {
-    margin: 2em;
-    text-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 2em 0 1em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #434E65;
+    text-align: center;
 }
 
 /*inicio div saldo-pontuacao*/
@@ -29,33 +24,38 @@ div p {
 }
 
 span {
-    font-size: 3em;
+    font-size: 2.5em;
     color: #434E65;
-    text-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: bold;
+    margin: 0 20px;
 }
 
 .saldo-pontuacao p {
-    width: 100px;
-    height: 100px;
     background-color: rgba(255, 255, 255, 0.5);
     width: 700px;
     height: 110px;
     margin: 0 auto;
     border-radius: 1em;
-    margin-top: -3em;
     color: #434E65;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    font-weight: 700;
 
 }
 /*fim div saldo-pontuacao*/
 
 /* inicio divs laranjas*/
-#links a {
+.duvidas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.links a {
     background-color: #f5b203;
-    width: 200px;
+    width: 260px;
     height: 70px;
-    margin: 20px;
+    margin: 20px 5px;
     border-radius: .5em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #ffffff;
@@ -63,31 +63,83 @@ span {
     text-decoration: none;
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* fim  divs laranjas*/
 
 
 /* inicio container loja*/
 .pontuacao-loja {
-    background-color: rgba(255, 255, 255, 0.5);
-    max-width: 950px;
-    max-height: 300px;
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 1030px;
     margin: auto;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.pontuacao-loja div {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 1.5em;
+.pontuacao-loja__text h2 {
     color: #434E65;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-top: 20px;
+    text-align: center;
 }
 
-.pontuacao-loja img {
-    width: 33%;
+.pontuacao-loja__text p {
+    color: #434E65;
+    font-size: 1.2em;
+}
+
+.pontuacao-loja__produtos {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.produtos__powerBank, .produtos__caneca, .produtos__manutencao {
+    position: relative;
+}
+
+.produtos__img {
     height: 200px;
+    width: 300px;
+    object-fit: cover;
     padding: 1.2em;
     border-radius: 28px;
+}
+
+.produtos__trocarBtn {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+    background: #F5B203;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    color: #434E65;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+.produto__text {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 25px;
+}
+
+.produto__nome {
+    color: #434E65;
+    font-weight: 700;
+}
+
+.produto__pontos {
+    color: #434E65;
 }
 
 /* fim container loja*/

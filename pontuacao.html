@@ -34,7 +34,7 @@
                     <img class="mainNav__icon" src="images/icons/4 - Indicação.png" alt="">
                     <p class="mainNav__description">Indicação</p>
                 </a>
-                <a class="mainNav__link" href="/pontuacao.html">
+                <a class="mainNav__link mainNav__link--active" href="/pontuacao.html">
                     <img class="mainNav__icon" src="images/icons/5 - Pontuação.png" alt="">
                     <p class="mainNav__description">Pontuação</p>
                 </a>
@@ -77,28 +77,28 @@
 
             <main>
                 <!--inicio container main-->
-                <h1>Seja Bem Vindo ao seu clube de benefícios!</h1>
+                <h1>Seja bem vindo ao seu clube de benefícios!</h1>
                 <!--inicio saldo-pontuacao-->
                 <div class="saldo-pontuacao">
-                    <p>Seu saldo atual é de:<span>100 Pontos</span></p>
+                    <p>Seu saldo atual é de: <span>100 Pontos</span></p>
 
                 </div>
                 <!--fim saldo-pontuacao-->
 
-                <section>
+                <section class="duvidas">
                     <!--inicio divs laranjas-->
-                    <div id="links">
+                    <div class="links">
                         <a href="#">Como funciona?</a>
                     </div>
 
-                    <div id="links">
+                    <div class="links">
                         <a href="#">Sistema de Bonificação</a>
                     </div>
 
-                    <div id="links">
+                    <div class="links">
                         <a href="#">Extrato</a>
                     </div>
-                    <div id="links">
+                    <div class="links">
                         <a href="#">Ranking de Pontos</a>
                     </div>
                 </section>
@@ -106,15 +106,42 @@
 
                 <aside class="pontuacao-loja">
                     <!--inicio pontuacao loja-->
-                    <div>
+                    <div class="pontuacao-loja__text">
                         <h2>Loja buy energia</h2>
                         <p>Troque seus produtos aqui</p>
                     </div>
-
-                    <a href="#"><img src="./images/power-bank-loja.jpg" alt="Power Bank" /></a>
-                    <a href="#"><img src="./images/caneca-loja.jpg" alt="Caneca" /></a>
-                    <a href="#"><img src="./images/manutencao-loja.jpg" alt="manutenção" /></a>
-
+                    <div class="pontuacao-loja__produtos">
+                        <div class="produtos__powerBank">
+                            <a href="#">
+                                <img class="produtos__img" src="./images/power-bank-loja.jpg" alt="Power Bank" />
+                                <p class="produtos__trocarBtn">Trocar</p>
+                            </a>
+                            <div class="produto__text">
+                                <p class="produto__nome">Power bank</p>
+                                <p class="produto__pontos">150 pontos</p>
+                            </div>
+                        </div>
+                        <div class="produtos__caneca">
+                            <a href="#">
+                                <img class="produtos__img" src="./images/caneca-loja.jpg" alt="Caneca" />
+                                <p class="produtos__trocarBtn">Trocar</p>
+                            </a>
+                            <div class="produto__text">
+                                <p class="produto__nome">Caneca Buy Energy</p>
+                                <p class="produto__pontos">50 pontos</p>
+                            </div>
+                        </div>
+                        <div class="produtos__manutencao">
+                            <a href="#">
+                                <img class="produtos__img" src="./images/manutencao-loja.jpg" alt="manutenção" />
+                                <p class="produtos__trocarBtn">Trocar</p>
+                            </a>
+                            <div class="produto__text">
+                                <p class="produto__nome">Manuteção periódica</p>
+                                <p class="produto__pontos">200 pontos</p>
+                            </div>
+                        </div>
+                    </div>
                 </aside>
                 <!-- fim pontuacao loja-->
             </main>
