@@ -1,0 +1,219 @@
+.main {
+    padding: 50px;
+}
+
+.upper_text1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    text-align: center;
+    color: #434E65;
+    margin: 20px 0;
+}
+.upper_text2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #434E65;
+    margin: 20px 0;
+}
+.upper_text3{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #434E65;
+    margin: 20px 0;
+}
+.upperText__value{    
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    padding: 5px 40px;
+ } 
+
+ .inbox_text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;        
+    color: #434E65;
+ }
+ /*Nova indicação*/
+.main_text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    color: #434E65;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 15px 0;
+}
+
+.userProfile_icon{
+    max-width: 34px;
+    margin-bottom: 10px;
+}
+
+.whatsApp_icon{
+    max-width: 34px;   
+    margin-bottom: 10px;
+}
+
+.mail_icon{
+    max-width: 34px; 
+    margin-bottom: 10px;
+}
+/*input com dados de indicaçcao*/
+.inputIndicacao {
+    width: 429px;
+    height: 30px;
+    background: #FFFFFF;
+    filter: blur(2px);
+    border-radius: 6px;
+    border-color: #FFFFFF;
+    border: none;
+    margin-left: 15px;
+}
+
+.indicacao__userProfile, .indicacao__whatsApp, .indicacao__mail, .flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Deixe aqui sua mensagem sobre a pessoa indicada*/
+.nextMain_text{
+    width: 502px;
+    height: 24px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #434E65;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 30px 0 10px 0;
+}
+/*nomes das indicações*/
+.rectangle5{
+    width: 475px;
+    height: 166px;
+    background: #FFFFFF;
+    filter: blur(2px);
+    border-radius: 8px;
+    border: none;
+}
+
+.indicacao__button {
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.button_sendMsg{    
+    max-width: 270px;
+    text-align: center;
+    background-color: #434E65;
+    border-radius: 10px;
+    padding: 8px 10px;
+    width: 50%;
+    border: none;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-top: 30px;
+}
+/*Quadro: Suas indicacoes*/
+.main__container{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+
+.indication {
+    padding-left: 50px;
+}
+
+.indication__title{
+    width: 503px;
+    height: 24px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    color: #434E65;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 15px 0;
+}
+
+.indications__cnt {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    padding: 5px 0;
+    border-radius: 6px;
+    max-width: 450px;
+}
+
+.indication__icon{  
+    max-width: 34px;   
+}
+
+.inbox_text1 , .inbox_text2 , .inbox_text3 , .inbox_text4 , .inbox_text5{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    margin-right: 130px;
+}
+
+.inbox_text1{
+    color: #F5B203;    
+}
+.inbox_text2 , .inbox_text3{
+    color: #85B824;    
+}
+.inbox_text4 , .inbox_text5{
+    color: #C12B2B;    
+}
+
+/*legendas*/
+.subtitleCnt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.subtitles {
+    width: 270px;
+}
+
+.subtitle__square {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.subtitle__text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 420;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 20px;   
+}
